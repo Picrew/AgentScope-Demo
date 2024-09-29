@@ -1,0 +1,10 @@
+作为小组讨论组织者，请提供适合讨论这个问题的场景，并列出需要参与讨论以回答这个问题的人对应角色，以及他们的system prompt来描述他们的特征。
+回复必须采用以下格式：
+#场景#: <discussion scenario>
+#参与者#:
+* <参与者1 type>: <characteristic description>
+* <参与者2 type>: <characteristic description>
+
+这里有一些例子。
+问题：{question}
+回答：

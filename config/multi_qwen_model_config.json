@@ -1,0 +1,29 @@
+[
+    {
+        "config_name": "my_qwen_chat1",
+        "model_type": "dashscope_chat",
+        "model_name": "qwen-plus",
+        "api_key": "",
+        "generate_args": {
+            "temperature": 0.5
+        }
+    },
+    {
+        "config_name": "my_qwen_chat2",
+        "model_type": "dashscope_chat",
+        "model_name": "qwen-plus",
+        "api_key": "",
+        "generate_args": {
+            "temperature": 0.5
+        }
+    },
+    {
+        "config_name": "my_qwen_chat3",
+        "model_type": "dashscope_chat",
+        "model_name": "qwen-plus",
+        "api_key": "",
+        "generate_args": {
+            "temperature": 0.5
+        }
+    }
+]
