@@ -22,11 +22,16 @@ pip install -e .
 
 ## Quick Start
 
+```bash
+git clone https://github.com/Picrew/AgentScope-Demo.git
+```
+
 ### Sample example
 Please **run agent.ipynb**
 
 ### Streaming output
 ```bash
+cd AgentScope-Demo
 python run_agent_streaming.py
 ```
 
