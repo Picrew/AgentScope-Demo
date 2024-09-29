@@ -3,7 +3,7 @@
 This README provides a concise overview of setting up and running a simple demo using the [AgentScope](https://github.com/modelscope/agentscope) framework. 
 
 ## News
-* [2024/09/29] I have released **Sample example, Streaming output, Multi-agent discussions, Auto-multi-agent** at this repositories.
+* [2024/09/29] I have released **Sample example, Streaming output, Multi-agent discussions, Auto-multi-agent** at the floder ``workspace``.
 
 
 ## Prerequisites
