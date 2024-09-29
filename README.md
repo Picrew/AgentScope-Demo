@@ -38,6 +38,7 @@ And use @ who.
 
 ### Auto-multi-agent
 ```bash
+cd auto_multi_agent
 python auto_discussion.py
 ```
 
