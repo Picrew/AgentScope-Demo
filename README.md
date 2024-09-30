@@ -4,7 +4,7 @@ This README provides a concise overview of setting up and running a simple demo 
 
 ## News
 * [2024/09/29] I have released **Sample example, Streaming output, Multi-agent discussions, Auto-multi-agent** at the floder ``workspace``.
-* [2024/09/30] I have released **MOA-agent** at the floder ``moa_agent``.
+* [2024/09/30] I have released **MOA-agent** at the floder ``workspace/moa_agent``.
 
 ## Prerequisites
 * Python version: 3.9 or higher
