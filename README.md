@@ -4,7 +4,7 @@ This README provides a concise overview of setting up and running a simple demo 
 
 ## News
 * [2024/09/29] I have released **Sample example, Streaming output, Multi-agent discussions, Auto-multi-agent** at the floder ``workspace``.
-
+* [2024/09/30] I have released **MOA-agent** at the floder ``moa_agent``.
 
 ## Prerequisites
 * Python version: 3.9 or higher
@@ -47,3 +47,9 @@ cd auto_multi_agent
 python auto_discussion.py
 ```
 
+### Moa_agent
+```bash
+cd moa_agent
+python run_moa_agent_streaming.py 
+# or 
+python run_moa_agent.py
