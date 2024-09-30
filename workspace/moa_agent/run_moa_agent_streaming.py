@@ -5,11 +5,11 @@ from agentscope.agents import AgentBase, UserAgent
 from agentscope.strategy import MixtureOfAgents
 from agentscope.message import Msg
 
-# 初始化 model config
+
 model_configs = "../../config/multi_moa_qwen_model_config copy.json"
 agentscope.init(model_configs=model_configs, project="Mixture of Agents Streaming")
 
-# 初始化 MoA 模块
+
 your_moa_module = MixtureOfAgents(
     main_model="my_qwen_chat1",
     reference_models=["my_qwen_chat1", "my_qwen_chat2"],
@@ -52,13 +52,12 @@ class StreamingDialogAgentWithMoA(AgentBase):
             time.sleep(0.05)
         print()
 
-# 设置聊天
+
 if __name__ == "__main__":
-    # 初始化两个代理
+
     dialog_agent = StreamingDialogAgentWithMoA(name="Assistant", moa_module=your_moa_module, use_memory=True)
     user_agent = UserAgent()
 
-    # 开始用户和助手之间的对话
     msg = None
     while True:
         msg = user_agent(msg)
