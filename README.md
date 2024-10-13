@@ -56,7 +56,7 @@ python run_moa_agent_streaming.py
 python run_moa_agent.py
 ```
 
-### gomoku_agent
+### Gomoku_agent
 ```bash
 cd gomoku_agent
 python run_game.py
