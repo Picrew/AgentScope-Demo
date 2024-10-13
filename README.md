@@ -5,6 +5,7 @@ This README provides a concise overview of setting up and running a simple demo 
 ## News
 * [2024/09/29] I have released **Sample example, Streaming output, Multi-agent discussions, Auto-multi-agent** at the floder ``workspace``.
 * [2024/09/30] I have released **MOA-agent** at the floder ``workspace/moa_agent``.
+* [2024/10/13] I have released a Gomoku Game using **gomoku_agent** at the floder ``workspace/gomoku_agent``.
 
 ## Prerequisites
 * Python version: 3.9 or higher
@@ -53,3 +54,22 @@ cd moa_agent
 python run_moa_agent_streaming.py 
 # or 
 python run_moa_agent.py
+```
+
+### gomoku_agent
+```bash
+cd gomoku_agent
+python run_game.py
+```
+
+#### :game_die: This is a sample game begin 
+
+<p align="center">
+  <img src="./assets/gomoku_agent_output.jpg" width="80%">
+</p>
+
+#### :trophy: This is a game over  
+
+<p align="center">
+  <img src="./assets/gomoku_agent_win.jpg" width="80%">
+</p>
